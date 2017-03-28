@@ -1,5 +1,20 @@
 FROM alpine
 
+MANTAINER Nicolás Dascanio "<nicolas.dascanio@intraway.com>"
+
+ARG BUILD_DATE
+ARG BUILD_VCS_REF
+ARG BUILD_VERSION
+
+
+LABEL org.label-schema.build-date=$BUILD_DATE \
+      org.label-schema.vcs-url="https://github.com/intraway/snmp_mock.git" \
+      org.label-schema.vcs-ref=$BUILD_VCS_REF \
+      org.label-schema.version=$BUILD_VERSION \
+      com.microscaling.license=GPL-3.0
+
+
+
 ADD docker /app
 #ADD snmp_mock /app/snmp_mock
 ADD sample_oids /app/oids
