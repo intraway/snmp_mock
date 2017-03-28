@@ -1,5 +1,4 @@
 FROM alpine:3.4
-MANTAINER Nicolás Dascanio "<nicolas.dascanio@intraway.com>"
 
 ARG BUILD_DATE
 ARG BUILD_VCS_REF
