@@ -1,6 +1,12 @@
 # SNMP Mock
 This is simple server that responds snmp queries.
 
+## Docker image
+[![](https://images.microbadger.com/badges/version/intraway/snmp_mock.svg)](https://microbadger.com/images/intraway/snmp_mock "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/intraway/snmp_mock.svg)](https://microbadger.com/images/intraway/snmp_mock "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/commit/intraway/snmp_mock.svg)](https://microbadger.com/images/intraway/snmp_mock "Get your own commit badge on microbadger.com")
+[![](https://images.microbadger.com/badges/license/intraway/snmp_mock.svg)](https://microbadger.com/images/intraway/snmp_mock "Get your own license badge on microbadger.com")
+
 ## Configuration
 ### Mock configuration
 There are a few things that can be changed with environment variables:
